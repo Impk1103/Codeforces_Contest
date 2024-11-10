@@ -9,8 +9,10 @@ int main() {
     cin >> t;
  
     while (t--) {
-        
+        int l,r,k;
+        cin >>l>>r>>k;
+        int n = max(0, r / k - l + 1);
+        cout<< n << "\n";
     }
- 
     return 0;
 }
